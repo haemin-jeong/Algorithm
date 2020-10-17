@@ -1,5 +1,3 @@
-// Date : 2020-10-16
-// Link : https://www.acmicpc.net/problem/1541
 package Greedy;
 
 import java.util.Scanner;
