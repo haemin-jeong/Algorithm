@@ -1,6 +1,5 @@
 // Date : 2020-10-25
 // Link : https://www.acmicpc.net/problem/1330
-
 package Math;
 
 import java.util.*;

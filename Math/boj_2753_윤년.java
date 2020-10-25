@@ -1,3 +1,5 @@
+//Date : 2020-10-25
+//Link : https://www.acmicpc.net/problem/2753
 package Math;
 
 import java.io.BufferedReader;
