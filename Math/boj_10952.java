@@ -1,3 +1,6 @@
+// Date : 2020-10-25
+// Link : https://www.acmicpc.net/problem/10952
+
 package Math;
 
 import java.io.BufferedReader;
@@ -13,9 +16,6 @@ public class boj_10952 {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
-
-            if (a == 0 && b == 0)
-                break;
 
             System.out.println(a + b);
         }
