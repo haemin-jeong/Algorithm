@@ -1,6 +1,6 @@
 // 날짜 : 2020-10-25
 // 문제 출처 : https://www.acmicpc.net/problem/10951
-// 문제 풀이 : https://velog.io/@jeonghaemin/%EB%B0%B1%EC%A4%80-10951%EB%B2%88-AB-4-Java
+// 문제 풀이 : https://developer-hm.tistory.com/3
 
 package Math;
 
