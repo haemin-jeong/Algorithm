@@ -1,3 +1,6 @@
+//풀이 날짜 : 2020-12-21
+//문제 출처 : https://www.acmicpc.net/problem/2447
+
 package Boj.Recursion;
 
 import java.io.BufferedReader;
