@@ -35,16 +35,13 @@ public class boj_1018_체스판_다시_칠하기  {
         int w = Integer.parseInt(st.nextToken());
 
         char[][] input =  new char[h][w];
-        char[][] board = null;
 
         int result = h*w;
-
-
+        
         for (int i = 0; i < h; i++) {
             input[i] = br.readLine().toCharArray();
         }
-
-
+        
         for (int i = 0; i <= h-8; i++) {
             for (int j = 0; j <= w-8; j++) {
 
@@ -52,6 +49,7 @@ public class boj_1018_체스판_다시_칠하기  {
                 int white = 0;
                 int x;
                 int y=0;
+
                 for (int k = i; k < (i+8); k++) {
                     x = 0;
                     for (int l = j; l < (j+8); l++) {
