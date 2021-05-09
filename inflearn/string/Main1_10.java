@@ -1,10 +1,10 @@
-package inflearn;
+package inflearn.string;
 
 import java.util.ArrayList;
 import java.util.List;
 
 //https://developer-hm.tistory.com/56
-public class String1_10 {
+public class Main1_10 {
 
     public String mySolution(String s, char t) {
         List<Integer> pos = new ArrayList<>();
