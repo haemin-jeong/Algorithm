@@ -11,7 +11,7 @@ public class Main1_12 {
 
         StringBuilder sb = new StringBuilder();
         String binary = s.replace("#", "1").replace("*", "0");
-        
+
         for (int i = 0; i < n; i++) {
             char c = (char) Integer.parseInt(binary.substring(i*7, i*7+7), 2);
             sb.append(c);
