@@ -23,6 +23,7 @@ public class Main2_10 {
     }
 
 
+    //강의 풀이
     public static int solution2(int n, int[][] arr) {
         int[] dx = {-1, 0, 1, 0};
         int[] dy = {0, 1, 0, -1};
@@ -55,23 +56,23 @@ public class Main2_10 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        int arr[][] = new int[n+2][n+2]; //가장자리가 0으로 초기화되어야 하기때문에 +2
-
-        for (int i = 1; i < n+1; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 1; st.hasMoreTokens(); j++) {
-                arr[i][j] = Integer.parseInt(st.nextToken());
-            }
-        }
-
-//        int[][] arr = new int[n][n];
+//        int arr[][] = new int[n+2][n+2]; //가장자리가 0으로 초기화되어야 하기때문에 +2
 //
-//        for (int i = 0; i < n; i++) {
+//        for (int i = 1; i < n+1; i++) {
 //            StringTokenizer st = new StringTokenizer(br.readLine());
-//            for (int j = 0; st.hasMoreTokens(); j++) {
+//            for (int j = 1; st.hasMoreTokens(); j++) {
 //                arr[i][j] = Integer.parseInt(st.nextToken());
 //            }
 //        }
+
+        int[][] arr = new int[n][n];
+
+        for (int i = 0; i < n; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for (int j = 0; st.hasMoreTokens(); j++) {
+                arr[i][j] = Integer.parseInt(st.nextToken());
+            }
+        }
 
         System.out.println(solution2(n, arr));
     }
