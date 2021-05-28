@@ -3,6 +3,8 @@ package inflearn.hashmap_treeset;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
 
 //학급회장
 public class Main4_1 {
@@ -26,6 +28,27 @@ public class Main4_1 {
         return (char)(maxIdx+65);
     }
 
+    //HashMap 사용
+    public static char solution2(int n, char[] arr) {
+        char answer = ' ';
+        Map<Character, Integer> map = new HashMap<>();
+
+        for (char c : arr) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        int max = 0;
+
+        for (char key : map.keySet()) {
+            if (map.get(key) > max) {
+                answer = key;
+                max = map.get(key);
+            }
+        }
+
+        return answer;
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -37,7 +60,7 @@ public class Main4_1 {
             arr[i] = s.charAt(i);
         }
 
-        System.out.println(solution(n, arr));
+        System.out.println(solution2(n, arr));
 
         br.close();
     }
