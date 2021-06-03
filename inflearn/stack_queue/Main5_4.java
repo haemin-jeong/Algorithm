@@ -9,10 +9,10 @@ import java.util.Stack;
 public class Main5_4 {
 
     //숫자면 스택에 넣고, 연산자면 스택에서 두개를 꺼내서 연산하고 연산 결과를 스택에 넣는다.
-    public static int solutino(String s) {
+    public static int solution(String s) {
         Stack<Integer> stack = new Stack<>();
         int answer = 0;
-        
+
         for (char c : s.toCharArray()) {
 
             if (Character.isDigit(c)) {
@@ -37,6 +37,6 @@ public class Main5_4 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println(solutino(br.readLine()));
+        System.out.println(solution(br.readLine()));
     }
 }
