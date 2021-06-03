@@ -63,6 +63,18 @@ public class Main3_5 {
         return answer;
     }
 
+    //강의 풀이 방식2 - 수학
+    public static int solution3(int n){
+        int answer=0, count=1;
+        n--;
+        while(n>0){
+            count++;
+            n=n-count;
+            if(n%count==0) answer++;
+        }
+        return answer;
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
