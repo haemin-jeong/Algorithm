@@ -64,5 +64,7 @@ public class Main1_11 {
         String s = br.readLine();
 
         System.out.println(T.solution(s));
+
+        br.close();
     }
 }

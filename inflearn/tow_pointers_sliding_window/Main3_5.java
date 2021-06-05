@@ -80,5 +80,7 @@ public class Main3_5 {
         int n = Integer.parseInt(br.readLine());
 
         System.out.println(solution2(n));
+
+        br.close();
     }
 }

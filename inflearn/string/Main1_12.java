@@ -27,5 +27,7 @@ public class Main1_12 {
         String s = br.readLine();
 
         System.out.println(solution(n, s));
+
+        br.close();
     }
 }

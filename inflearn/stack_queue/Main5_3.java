@@ -56,5 +56,7 @@ public class Main5_3 {
         }
 
         System.out.println(solution(board, n, moves, m));
+
+        br.close();
     }
 }

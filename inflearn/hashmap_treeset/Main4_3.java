@@ -53,5 +53,7 @@ public class Main4_3 {
         for (Integer i : answer) {
             System.out.print(i + " ");
         }
+
+        br.close();
     }
 }

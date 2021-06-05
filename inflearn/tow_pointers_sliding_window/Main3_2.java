@@ -54,5 +54,7 @@ public class Main3_2 {
         for (Integer i : list) {
             System.out.print(i + " ");
         }
+
+        br.close();
     }
 }

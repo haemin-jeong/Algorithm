@@ -49,5 +49,7 @@ public class Main4_4 {
         String t = br.readLine();
 
         System.out.println(solution(s, t));
+
+        br.close();
     }
 }

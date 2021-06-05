@@ -80,5 +80,7 @@ public class Main3_1 {
         for (int i : solution(n, arr1, m, arr2)) {
             System.out.print(i + " ");
         }
+
+        br.close();
     }
 }

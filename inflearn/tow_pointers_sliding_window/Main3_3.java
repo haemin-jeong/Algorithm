@@ -59,5 +59,7 @@ public class Main3_3 {
         }
 
         System.out.println(solution2(n, k, arr));
+
+        br.close();
     }
 }

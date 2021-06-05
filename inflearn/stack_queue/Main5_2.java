@@ -50,5 +50,7 @@ public class Main5_2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println(solution2(br.readLine()));
+
+        br.close();
     }
 }

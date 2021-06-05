@@ -49,5 +49,7 @@ public class Main4_5 {
         }
 
         System.out.println(solution(n, k, arr));
+
+        br.close();
     }
 }

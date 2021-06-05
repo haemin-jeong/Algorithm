@@ -85,5 +85,7 @@ public class Main3_4 {
         }
 
         System.out.println(solution(n, m, arr));
+
+        br.close();
     }
 }

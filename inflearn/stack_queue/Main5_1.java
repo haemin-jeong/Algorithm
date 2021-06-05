@@ -33,5 +33,7 @@ public class Main5_1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println(solution(br.readLine()));
+
+        br.close();
     }
 }
