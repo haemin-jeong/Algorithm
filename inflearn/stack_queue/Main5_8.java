@@ -31,7 +31,7 @@ public class Main5_8 {
 
             int poll = queue.poll();
 
-            if (poll >= Collections.max(queue)) {
+            if (poll >= Collections.max(queue)) { //위험도가 가장 높다면
                 answer++;
 
                 if (pos == 0) {
@@ -72,7 +72,7 @@ public class Main5_8 {
                 }
             }
 
-            if (temp != null) {
+            if (temp != null) { //위험도가 가장 높다면
                 answer++;
                 if (temp.id == m) {
                     return answer;
@@ -96,7 +96,7 @@ public class Main5_8 {
             patients[i] = Integer.parseInt(st.nextToken());
         }
 
-        System.out.println(solution2(n, m, patients));
+        System.out.println(solution(n, m, patients));
 
         br.close();
     }
