@@ -1,6 +1,5 @@
 package inflearn.stack_queue;
 
-import javax.management.QueryEval;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
