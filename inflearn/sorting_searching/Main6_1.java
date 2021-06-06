@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//선택정렬
+//선택 정렬
 public class Main6_1 {
 
     public static void solution(int[] arr, int n) {
