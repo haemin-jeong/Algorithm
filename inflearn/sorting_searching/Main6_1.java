@@ -46,5 +46,7 @@ public class Main6_1 {
         for (int i : arr) {
             System.out.print(i + " ");
         }
+
+        br.close();
     }
 }

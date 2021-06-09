@@ -49,6 +49,8 @@ public class Main6_5 {
         }
 
         System.out.println(solution2(n, arr));
+
+        br.close();
     }
 }
 

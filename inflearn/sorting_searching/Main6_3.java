@@ -44,5 +44,6 @@ public class Main6_3 {
             System.out.print(i + " ");
         }
 
+        br.close();
     }
 }

@@ -38,5 +38,7 @@ public class Main6_6 {
         for (Integer i : solution(n, arr)) {
             System.out.print(i + " ");
         }
+
+        br.close();
     }
 }

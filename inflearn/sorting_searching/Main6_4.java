@@ -81,5 +81,6 @@ public class Main6_4 {
             System.out.print(i + " ");
         }
 
+        br.close();
     }
 }

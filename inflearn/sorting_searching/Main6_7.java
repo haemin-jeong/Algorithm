@@ -45,5 +45,7 @@ public class Main6_7 {
         for (Pos pos : list) {
             System.out.println(pos.x + " " + pos.y);
         }
+
+        br.close();
     }
 }
