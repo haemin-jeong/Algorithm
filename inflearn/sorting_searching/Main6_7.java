@@ -23,7 +23,7 @@ class Pos implements Comparable<Pos> {
 }
 
 //좌표 정렬
-public class Main5_7 {
+public class Main6_7 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
