@@ -1,17 +1,5 @@
 package inflearn.recursive_tree_graph;
 
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    public Node(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}
-
 //이진트리 순회(깊이 우선 탐색)
 public class Main7_5 {
 
