@@ -20,8 +20,11 @@ public class Main7_9 {
                 if (node.left == null && node.right == null) //자식노드가 없다는건 말단 노드
                     return level;
 
-                q.offer(node.left);
-                q.offer(node.right);
+                if (node.left != null)
+                    q.offer(node.left);
+
+                if (node.right != null)
+                    q.offer(node.right);
             }
 
             level++;
