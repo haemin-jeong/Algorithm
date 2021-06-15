@@ -35,7 +35,7 @@ public class Main7_8 {
                     if (n2 == e) //이동거리가 송아지의 위치 e와 같다면
                         return level+1;
 
-                    if (!checked[n2]) {
+                    if (n2 >= 1 && n2 <= 10000 && !checked[n2]) {
                         checked[n2] = true;
                         q.offer(n2);
                     }
