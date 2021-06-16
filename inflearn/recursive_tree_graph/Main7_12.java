@@ -51,5 +51,7 @@ public class Main7_12 {
         dfs(1);
 
         System.out.println(answer);
+
+        br.close();
     }
 }
