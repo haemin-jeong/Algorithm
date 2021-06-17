@@ -1,7 +1,7 @@
 // 날짜 : 2020-11-12
 // 출처 : https://programmers.co.kr/learn/courses/30/lessons/12916?language=java
 
-package Programmers;
+package programmers.level1;
 
 public class 문자열_내_P와_Y의_개수 {
     boolean solution(String s) {

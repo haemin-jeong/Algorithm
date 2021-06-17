@@ -1,4 +1,4 @@
-package Programmers;
+package programmers.level1;
 
 public class 약수의_합 {
     public int solution(int n) {

@@ -1,9 +1,7 @@
 // 풀이 날짜 : 2020-12-12
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/49993
 
-package Programmers.Level2;
-
-import java.util.*;
+package programmers.level2;
 
 public class 스킬트리 {
     public int solution(String skill, String[] skill_trees) {

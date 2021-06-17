@@ -1,7 +1,7 @@
 // 날짜 : 2020-11-12
 // 출처 : https://programmers.co.kr/learn/courses/30/lessons/12922
 
-package Programmers;
+package programmers.level1;
 
 public class 수박수박수박수박수박수 {
     public String solution(int n) {

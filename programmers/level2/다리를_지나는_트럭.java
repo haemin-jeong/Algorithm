@@ -1,4 +1,4 @@
-//풀이 날짜 : 2020-1-5
+package programmers.level2;//풀이 날짜 : 2020-1-5
 //문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/42583
 
 import java.util.*;

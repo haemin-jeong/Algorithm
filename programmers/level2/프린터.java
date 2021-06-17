@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-12-1
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/42587
 
-package Programmers.Level2;
+package programmers.level2;
 
 import java.util.*;
 

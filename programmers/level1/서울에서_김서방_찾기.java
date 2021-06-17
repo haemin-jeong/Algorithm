@@ -1,7 +1,7 @@
 //날짜 : 2020-11-12
 //출처 : https://programmers.co.kr/learn/courses/30/lessons/12919
 
-package Programmers;
+package programmers.level1;
 
 public class 서울에서_김서방_찾기 {
     public String solution(String[] seoul) {

@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-11-16
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/17681
 
-package Programmers;
+package programmers.level1;
 
 public class _1차_비밀지도 {
 
@@ -37,5 +37,4 @@ public class _1차_비밀지도 {
         
         return answer;
     }
-
 }

@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-11-24
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/42584
 
-package Programmers.Level2;
+package programmers.level2;
 
 public class 주식가격 {
     public int[] solution(int[] prices) {

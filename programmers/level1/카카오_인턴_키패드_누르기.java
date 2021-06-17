@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-11-19
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/67256
 
-package Programmers;
+package programmers.level1;
 
 public class 카카오_인턴_키패드_누르기 {
     public String solution(int[] numbers, String hand) {

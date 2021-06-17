@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-11-16
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/12969
 
-package Programmers;
+package programmers.level1;
 
 import java.util.Scanner;
 

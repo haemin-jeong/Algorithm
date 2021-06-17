@@ -1,7 +1,7 @@
 // 날짜 : 2020-11-5
 // 출처 : https://programmers.co.kr/learn/courses/30/lessons/42748
 
-package Programmers;
+package programmers.level1;
 
 import java.util.*;
 

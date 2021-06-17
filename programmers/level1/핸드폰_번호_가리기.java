@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-11-15
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/12948
 
-package Programmers;
+package programmers.level1;
 
 public class 핸드폰_번호_가리기 {
 

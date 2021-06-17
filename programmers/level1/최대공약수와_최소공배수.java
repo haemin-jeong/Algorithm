@@ -1,7 +1,7 @@
 // 풀이 날짜 : 2020-11-21
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/12940
 
-package Programmers.Level1;
+package programmers.level1;
 
 // 유클리드 호제법 이용
 public class 최대공약수와_최소공배수 {

@@ -1,9 +1,9 @@
 // 풀이 날짜 : 2020-12-13
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/12899
 
-package Programmers.Level2;
+package programmers.level2;
 
-public class 124나라의_숫자 {
+public class _124나라의_숫자 {
     public String solution(int n) {
         StringBuilder sb = new StringBuilder();
              

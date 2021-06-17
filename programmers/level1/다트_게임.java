@@ -1,4 +1,4 @@
-package Programmers;
+package programmers.level1;
 
 public class 다트_게임 {
     public int solution(String dartResult) {

@@ -1,4 +1,4 @@
-package Programmers;
+package programmers.level1;
 
 public class 시저암호 {
     public String solution(String s, int n) {
