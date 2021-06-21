@@ -9,18 +9,18 @@ import java.util.StringTokenizer;
 public class Main8_9 {
 
     static int n, m;
-    static int[] conbination;
+    static int[] combination;
 
     public static void dfs(int level, int start) {
         if (level == m) {
-            for (int i : conbination) {
+            for (int i : combination) {
                 System.out.print(i + " ");
             }
             System.out.println();
 
         } else {
             for (int i = start; i <= n; i++) {
-                conbination[level] = i;
+                combination[level] = i;
                 dfs(level + 1, i + 1);
             }
         }
@@ -32,7 +32,7 @@ public class Main8_9 {
 
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        conbination = new int[m];
+        combination = new int[m];
 
         dfs(0, 1);
 
