@@ -23,7 +23,7 @@ public class Main8_11 {
     static int[] dy = {0, 1, 0, -1};
     static int[][] board, dis;
 
-    //예습 풀이
+    //예습 풀이 - level값을 사용하여 최단거리 계산
     public static int bfs(int[][] board) {
         Queue<Position> q = new LinkedList<>();
         q.offer(new Position(1, 1));
@@ -57,8 +57,7 @@ public class Main8_11 {
         return -1;
     }
 
-
-    //강의 풀이
+    //강의 풀이 - 시작점으로부터 현재 위치까지의 이동 거리를 저장할 dis 배열 사용
     public static void bfs(int x, int y) {
         Queue<Position> q = new LinkedList<>();
         q.offer(new Position(x, y));
@@ -89,7 +88,6 @@ public class Main8_11 {
 
         for (int i = 1; i <= 7; i++) {
             st = new StringTokenizer(br.readLine());
-
 
             for (int j = 1; st.hasMoreTokens(); j++) {
                 board[i][j] = Integer.parseInt(st.nextToken());
