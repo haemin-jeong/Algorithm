@@ -7,17 +7,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class Point {
-    int x;
-    int y;
-
-    public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-}
-
 //토마토(BFS 활용)
 public class Main8_12 {
     static Queue<Point> q = new LinkedList<>();
