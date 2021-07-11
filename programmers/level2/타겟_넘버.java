@@ -5,12 +5,12 @@ public class 타겟_넘버 {
     int target;
     int answer = 0;
 
-    public void dfs(int level, int n) {
+    public void dfs(int level, int sum) {
         if(level == numbers.length)
-            if(n == target) answer++;
+            if(sum == target) answer++;
         else {
-            dfs(level+1, n+numbers[level]);
-            dfs(level+1, n-numbers[level]);
+            dfs(level+1, sum+numbers[level]);
+            dfs(level+1, sum-numbers[level]);
         }
     }
 
